@@ -1,4 +1,4 @@
-import { Facebook, Instagram, Linkedin, MapPin, Phone, Mail, ArrowUp, Home } from "lucide-react";
+import { Facebook, Instagram, Linkedin, MapPin, Phone, Mail, ArrowUp } from "lucide-react";
 import { SITE, telLink } from "@/lib/site";
 
 const quickLinks = [
@@ -34,9 +34,11 @@ export function Footer() {
         <div className="grid gap-10 md:grid-cols-2 lg:grid-cols-4">
           <div>
             <div className="flex items-center gap-2">
-              <span className="grid h-10 w-10 place-items-center rounded-xl bg-primary text-white">
-                <Home className="h-5 w-5" />
-              </span>
+              <img
+                src={SITE.logo}
+                alt={`${SITE.name} logo`}
+                className="h-10 w-auto max-w-[140px] shrink-0 rounded-xl object-contain bg-white/90 p-1"
+              />
               <span className="font-display text-lg font-bold">Naveed Real Estate</span>
             </div>
             <p className="mt-4 text-sm leading-relaxed text-white/70">

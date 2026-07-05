@@ -25,7 +25,7 @@ export function MapSection() {
       >
         <iframe
           title="Naveed Real Estate — Office Location"
-          src="https://www.google.com/maps?q=AWT+Housing+Scheme+Phase+2+Lahore&output=embed"
+          src="https://www.google.com/maps?q=31.3545025,74.2154122&z=17&output=embed"
           className="h-[380px] w-full sm:h-[460px]"
           loading="lazy"
           referrerPolicy="no-referrer-when-downgrade"

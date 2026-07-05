@@ -6,28 +6,28 @@ const testimonials = [
   {
     name: "Ahmed Raza",
     role: "Homeowner, AWT Phase 2",
-    img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
+    img: "/images/testimonial-ahmed.jpg",
     review:
       "Naveed sahab helped us find our family home without a single hidden surprise. He treated our budget like his own — patient, honest, and always available.",
   },
   {
     name: "Sana Iqbal",
     role: "Investor, Bahria Orchard",
-    img: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80",
+    img: "/images/testimonial-sana.jpg",
     review:
       "I've worked with many agents in Lahore. Naveed stands apart because he explains the market clearly and never pressures you. My investments have performed beautifully.",
   },
   {
     name: "Bilal Ahmad",
     role: "Business Owner, Lake City",
-    img: "https://images.unsplash.com/photo-1519085360753-af0119f7cbe7?auto=format&fit=crop&w=400&q=80",
+    img: "/images/testimonial-bilal.jpg",
     review:
       "Finding the right commercial space felt overwhelming until we met Naveed. Professional, well-connected, and truly cared about our business needs.",
   },
   {
     name: "Farah Malik",
     role: "Homebuyer, Fazaia",
-    img: "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=400&q=80",
+    img: "/images/testimonial-farah.jpg",
     review:
       "The paperwork side was the part I feared most. Naveed's team made it painless and clear. I'd recommend them to anyone buying their first home.",
   },

@@ -83,7 +83,7 @@ export function Contact() {
           <div className="mt-3 overflow-hidden rounded-3xl border border-border shadow-[var(--shadow-soft)]">
             <iframe
               title="Naveed Real Estate — Office Map"
-              src="https://www.google.com/maps?q=AWT+Housing+Scheme+Phase+2+Lahore&output=embed"
+              src="https://www.google.com/maps?q=31.3545025,74.2154122&z=17&output=embed"
               className="h-64 w-full"
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
@@ -108,7 +108,7 @@ export function Contact() {
           className="rounded-3xl border border-border bg-white p-6 shadow-[var(--shadow-soft)] sm:p-8"
         >
           <div className="grid gap-4 sm:grid-cols-2">
-            <Field label="Full Name" name="name" placeholder="John Doe" required />
+            <Field label="Full Name" name="name" placeholder="Mutaher Malik etc." required />
             <Field label="Phone" name="phone" type="tel" placeholder="0300-0000000" required />
           </div>
           <Field label="Email" name="email" type="email" placeholder="you@example.com" className="mt-4" />

@@ -2,8 +2,7 @@ import { motion } from "motion/react";
 import { Phone, MessageCircle, ShieldCheck, Sparkles, MapPin } from "lucide-react";
 import { telLink, waLink } from "@/lib/site";
 
-const HERO_IMG =
-  "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2000&q=80";
+const HERO_IMG = "/images/hero.jpg";
 
 export function Hero() {
   return (

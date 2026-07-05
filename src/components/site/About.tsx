@@ -11,8 +11,7 @@ const values = [
   { icon: Users, title: "Long-term Relationships", desc: "Advisors for life, not one deal." },
 ];
 
-const ILLUSTRATION =
-  "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1400&q=80";
+const ILLUSTRATION = "/images/about.jpg";
 
 export function About() {
   return (
@@ -39,7 +38,7 @@ export function About() {
             <img
               src={ILLUSTRATION}
               alt="Modern Lahore residence"
-              className="aspect-[4/5] w-full object-cover transition-transform duration-700 hover:scale-105"
+              className="aspect-[4/5] w-full object-contain transition-transform duration-700 hover:scale-105"
               loading="lazy"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-primary/40 via-transparent to-transparent" />

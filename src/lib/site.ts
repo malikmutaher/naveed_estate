@@ -1,5 +1,6 @@
 export const SITE = {
   name: "Naveed Real Estate",
+  logo: `/logo.jpg?v=${Date.now()}`,
   phone: "0300-5015118",
   phoneIntl: "+923005015118",
   whatsapp: "923005015118",

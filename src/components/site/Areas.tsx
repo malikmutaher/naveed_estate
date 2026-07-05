@@ -6,31 +6,31 @@ export const AREAS = [
   {
     name: "AWT Housing Scheme Phase 2",
     desc: "Jatti Umrah Road, Lahore — a well-planned, secure community with strong long-term value.",
-    img: "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1200&q=80",
+    img: "/images/area-awt.jpg",
     map: "https://maps.google.com/?q=AWT+Housing+Scheme+Phase+2+Lahore",
   },
   {
     name: "Fazaia Housing Scheme",
     desc: "Modern infrastructure, family-friendly neighbourhoods, and reliable civic amenities.",
-    img: "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1200&q=80",
+    img: "/images/area-fazaia.jpg",
     map: "https://maps.google.com/?q=Fazaia+Housing+Scheme+Lahore",
   },
   {
     name: "Sui Gas Housing Society",
     desc: "Established society with mature landscaping and steadily appreciating property values.",
-    img: "https://images.unsplash.com/photo-1613490493576-7fde63acd811?auto=format&fit=crop&w=1200&q=80",
+    img: "/images/area-sui-gas.jpg",
     map: "https://maps.google.com/?q=Sui+Gas+Housing+Society+Lahore",
   },
   {
     name: "Bahria Orchard",
     desc: "Premium gated community with resort-like amenities and premium build quality.",
-    img: "https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1200&q=80",
+    img: "/images/area-bahria-orchard.jpg",
     map: "https://maps.google.com/?q=Bahria+Orchard+Lahore",
   },
   {
     name: "Lake City Lahore",
     desc: "Master-planned lifestyle destination with golf, schools, and premium residential blocks.",
-    img: "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?auto=format&fit=crop&w=1200&q=80",
+    img: "/images/area-lake-city.jpg",
     map: "https://maps.google.com/?q=Lake+City+Lahore",
   },
 ];

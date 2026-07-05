@@ -15,8 +15,7 @@ import {
 import { Section, SectionHeader } from "./Section";
 import { SITE, telLink, waLink } from "@/lib/site";
 
-const OWNER_IMG =
-  "https://images.unsplash.com/photo-1560250097-0b93528c311a?auto=format&fit=crop&w=1200&q=80";
+const OWNER_IMG = "/images/owner.jpg";
 
 const achievements = [
   { icon: ShieldCheck, title: "Trusted Consultant" },
@@ -49,13 +48,13 @@ export function Owner() {
           <div className="relative overflow-hidden rounded-3xl shadow-[var(--shadow-elevated)]">
             <img
               src={OWNER_IMG}
-              alt="Naveed — Founder & Real Estate Consultant"
+              alt="Waheed Akhter Gazi — Founder & Real Estate Consultant"
               className="aspect-[4/5] w-full object-cover"
               loading="lazy"
             />
             <div className="absolute inset-0 bg-gradient-to-t from-charcoal/85 via-charcoal/10 to-transparent" />
             <div className="absolute inset-x-0 bottom-0 p-6 text-white">
-              <div className="font-display text-3xl font-bold">Naveed</div>
+              <div className="font-display text-2xl font-bold sm:text-3xl">Waheed Akhter Gazi</div>
               <div className="text-sm text-white/85">Founder & Real Estate Consultant</div>
             </div>
           </div>
@@ -69,7 +68,7 @@ export function Owner() {
           className="lg:col-span-3 flex flex-col"
         >
           <p className="text-base leading-relaxed text-muted-foreground sm:text-lg">
-            With deep roots in Lahore's real estate landscape, Naveed has spent years walking clients
+            With deep roots in Lahore's real estate landscape, Waheed Akhter Gazi has spent years walking clients
             through every kind of property decision — from a first family home to strategic investment
             portfolios. His approach is refreshingly simple: listen carefully, share the full picture,
             and never rush a client into a deal that isn't right for them.

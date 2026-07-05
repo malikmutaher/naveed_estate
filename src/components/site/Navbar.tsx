@@ -1,7 +1,7 @@
 import { motion, AnimatePresence } from "motion/react";
-import { Phone, MessageCircle, Menu, X, Home } from "lucide-react";
+import { Phone, MessageCircle, Menu, X } from "lucide-react";
 import { useEffect, useState } from "react";
-import { telLink, waLink } from "@/lib/site";
+import { SITE, telLink, waLink } from "@/lib/site";
 import { cn } from "@/lib/utils";
 
 const links = [
@@ -37,14 +37,14 @@ export function Navbar() {
     >
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 sm:px-6 lg:px-8">
         <a href="#home" className="flex items-center gap-2 group">
-          <span
+          <img
+            src={SITE.logo}
+            alt={`${SITE.name} logo`}
             className={cn(
-              "grid h-10 w-10 place-items-center rounded-xl transition-colors",
-              scrolled ? "bg-primary text-white" : "bg-white/15 backdrop-blur text-white",
+              "h-10 w-auto max-w-[140px] shrink-0 rounded-xl object-contain",
+              !scrolled && "bg-white/90 p-1",
             )}
-          >
-            <Home className="h-5 w-5" />
-          </span>
+          />
           <span className="flex flex-col leading-tight">
             <span
               className={cn(
