@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { MapPin, ExternalLink } from "lucide-react";
+import { MapPin, ExternalLink, Download } from "lucide-react";
 import { Section, SectionHeader } from "./Section";
 import { AREAS } from "./Areas";
 
@@ -15,6 +15,21 @@ export function MapSection() {
         }
         subtitle="Visit our office in AWT Housing Scheme Phase 2, or explore the communities we serve across Lahore."
       />
+
+      <div className="mb-6 flex flex-wrap items-center justify-between gap-3 rounded-2xl border border-border/80 bg-muted/30 p-4">
+        <div>
+          <p className="text-sm font-semibold text-foreground">AWT Housing Society Map</p>
+          <p className="text-sm text-muted-foreground">Download the PDF map for quick reference anytime.</p>
+        </div>
+        <a
+          href="/images/awt-housing-map.pdf"
+          download="awt-housing-map.pdf"
+          className="inline-flex items-center justify-center gap-2 rounded-2xl bg-primary px-4 py-2.5 text-sm font-semibold text-white transition-all hover:bg-primary/90"
+        >
+          <Download className="h-4 w-4" />
+          Download Map
+        </a>
+      </div>
 
       <motion.div
         initial={{ opacity: 0, y: 30 }}
